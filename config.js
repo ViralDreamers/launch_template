@@ -125,7 +125,6 @@ const COINS = {
       pattern: "grid",
     },
   },
-};
 
   /* ----------------------------- $JUICED ------------------------------ */
   juiced: {
@@ -150,29 +149,31 @@ const COINS = {
       ["Get a wallet", "Install Phantom or any Solana wallet."],
       ["Fund it", "Send some SOL to your wallet."],
       ["Swap on pump.fun", "Paste the contract, swap SOL for the token."],
-      ["You're seated", "Hold, post, and shove with the table."],
+      ["You're seated", "Hold, post, and hit a PR with the gym."],
     ],
 
     theme: {
-    mode: "dark",
-    bg: "#0a1420",        // deep navy-black background
-    bg2: "#0f1d2e",       // slightly lifted panel background
-    surface: "#16263a",   // cards / boxes
-    text: "#eaf2fb",       // near-white text
-    muted: "#7d93ad",      // grey-blue muted text
-    accent: "#1d6fb8",     // the IWF 20kg plate blue — main accent
-    accent2: "#3fa9f5",    // brighter sky-blue highlight
-    glow: "rgba(29,111,184,0.4)",
-    font_display: "'Anton', sans-serif",
-    font_body: "'Inter', sans-serif",
-    pattern: "grid",
-},
+      mode: "dark",
+      bg: "#0a1420",
+      bg2: "#0f1d2e",
+      surface: "#16263a",
+      text: "#eaf2fb",
+      muted: "#7d93ad",
+      accent: "#1d6fb8",
+      accent2: "#3fa9f5",
+      glow: "rgba(29,111,184,0.4)",
+      font_display: "'Anton', sans-serif",
+      font_body: "'Inter', sans-serif",
+      pattern: "grid",
+    },
   },
+};
 
 /* ---- resolver: subdomain -> coin (with local override) ---- */
 function resolveCoin() {
   if (FORCE_COIN && COINS[FORCE_COIN]) return COINS[FORCE_COIN];
-  const host = window.location.hostname;          // e.g. levels.yourdomain.com
-  const sub = host.split(".")[0].toLowerCase();   // -> "levels"
+  const host = window.location.hostname;
+  const sub = host.split(".")[0].toLowerCase();
   return COINS[sub] || COINS.default;
 }
+
