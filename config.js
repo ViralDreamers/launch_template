@@ -127,6 +127,48 @@ const COINS = {
   },
 };
 
+  /* ----------------------------- $JUICED ------------------------------ */
+  juiced: {
+    name: "JUICED COIN",
+    ticker: "$JUICED",
+    hook: "Natty? Never heard of her.",
+    sub: "Hit the gym bro.",
+
+    telegram: "https://t.me/c/3986563001/488/645",
+    showTelegram: true,
+    twitter: "https://x.com/JUICEDCOIN",
+    pumpfun: "https://pump.fun/",
+
+    ca: "",
+
+    about: [
+      "Everyone in the comments swears they're natural. The bar says otherwise.",
+      "$JUICED is for the lifters who add another plate when the coach says stop. No roadmap, no PCT, no promises — just blue 20s and bad decisions. It's a memecoin, not a supplement. Don't put it in your body or your retirement account.",
+    ],
+
+    steps: [
+      ["Get a wallet", "Install Phantom or any Solana wallet."],
+      ["Fund it", "Send some SOL to your wallet."],
+      ["Swap on pump.fun", "Paste the contract, swap SOL for the token."],
+      ["You're seated", "Hold, post, and shove with the table."],
+    ],
+
+    theme: {
+    mode: "dark",
+    bg: "#0a1420",        // deep navy-black background
+    bg2: "#0f1d2e",       // slightly lifted panel background
+    surface: "#16263a",   // cards / boxes
+    text: "#eaf2fb",       // near-white text
+    muted: "#7d93ad",      // grey-blue muted text
+    accent: "#1d6fb8",     // the IWF 20kg plate blue — main accent
+    accent2: "#3fa9f5",    // brighter sky-blue highlight
+    glow: "rgba(29,111,184,0.4)",
+    font_display: "'Anton', sans-serif",
+    font_body: "'Inter', sans-serif",
+    pattern: "grid",
+},
+  },
+
 /* ---- resolver: subdomain -> coin (with local override) ---- */
 function resolveCoin() {
   if (FORCE_COIN && COINS[FORCE_COIN]) return COINS[FORCE_COIN];
