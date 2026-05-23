@@ -108,7 +108,6 @@ const COINS = {
     ticker: "",
     hook: "Pick your play.",
     sub: "Live launches below.",
-    telegram: "https://t.me/yourtelegram",
     twitter: "https://x.com/yourx",
     pumpfun: "",
     ca: "",
