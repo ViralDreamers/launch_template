@@ -11,7 +11,7 @@
 
 // Set to a coin key (e.g. "levels" or "allin") to force-preview locally.
 // Leave as null in production so the subdomain decides.
-const FORCE_COIN = "allin";
+const FORCE_COIN = "null";
 
 const COINS = {
   /* ----------------------------- $LEVELS ----------------------------- */
