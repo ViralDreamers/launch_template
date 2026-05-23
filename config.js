@@ -23,6 +23,7 @@ const COINS = {
 
     // Links — fill these in per launch
     telegram: "https://t.me/yourtelegram",
+    showTelegram: false,
     twitter: "https://x.com/yourx",
     pumpfun: "https://pump.fun/",      // paste the coin URL once minted
 
@@ -68,6 +69,7 @@ const COINS = {
     sub: "Push your stack to the center. No half measures.",
 
     telegram: "https://t.me/yourtelegram",
+    showTelegram: false,
     twitter: "https://x.com/yourx",
     pumpfun: "https://pump.fun/",
 
@@ -108,6 +110,8 @@ const COINS = {
     ticker: "",
     hook: "Pick your play.",
     sub: "Live launches below.",
+    telegram: "https://t.me/yourtelegram",
+    showTelegram: false,
     twitter: "https://x.com/yourx",
     pumpfun: "",
     ca: "",
