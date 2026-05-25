@@ -167,7 +167,6 @@ const COINS = {
       pattern: "grid",
     },
   },
-};
 
 /* ----------------------------- $CARTEL ------------------------------ */
   cartel: {
@@ -210,6 +209,7 @@ const COINS = {
       pattern: "felt",       // soft glow texture suits the noir look
     },
   },
+};
          
 /* ---- resolver: subdomain -> coin (with local override) ---- */
 function resolveCoin() {
