@@ -173,7 +173,7 @@ const COINS = {
     name: "CARTEL",
     ticker: "$CARTEL",
     hook: "Earn your spot.",
-    sub: "The family eats together.",
+    sub: "The community eats together.",
 
     telegram: "https://t.me/yourtelegram",
     showTelegram: true,
