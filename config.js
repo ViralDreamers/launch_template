@@ -175,9 +175,9 @@ const COINS = {
     hook: "Earn your spot.",
     sub: "The community eats together.",
 
-    telegram: "https://t.me/yourtelegram",
+    telegram: "https://t.me/deccartel",
     showTelegram: true,
-    twitter: "https://x.com/yourx",
+    twitter: "https://x.com/i/communities/1953964802180894827",
     pumpfun: "https://pump.fun/",
 
     ca: "",
