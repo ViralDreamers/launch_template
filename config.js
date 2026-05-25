@@ -169,6 +169,48 @@ const COINS = {
   },
 };
 
+/* ----------------------------- $CARTEL ------------------------------ */
+  cartel: {
+    name: "CARTEL",
+    ticker: "$CARTEL",
+    hook: "Earn your spot.",
+    sub: "The family eats together.",
+
+    telegram: "https://t.me/yourtelegram",
+    showTelegram: true,
+    twitter: "https://x.com/yourx",
+    pumpfun: "https://pump.fun/",
+
+    ca: "",
+
+    about: [
+      "Every empire starts in the shadows. This one starts on the chart.",
+      "$CARTEL is a narco-noir memecoin — all the swagger, none of the substance. Treat it like a chip in a high-stakes game.",
+    ],
+
+    steps: [
+      ["Get a wallet", "Install Phantom or any Solana wallet."],
+      ["Fund it", "Send some SOL to your wallet."],
+      ["Swap on pump.fun", "Paste the contract, swap SOL for the token."],
+      ["You're in", "Hold, post, and ride with the family."],
+    ],
+
+    theme: {
+      mode: "dark",
+      bg: "#16091f",         // deep aubergine-black
+      bg2: "#1f0d2b",        // lifted purple panel
+      surface: "#2a1339",    // cards / boxes
+      text: "#f3e9d2",       // warm parchment text
+      muted: "#a98fc0",      // muted lavender
+      accent: "#e8b54a",     // gold — the headline/CTA color
+      accent2: "#7c4dbe",    // royal purple highlight
+      glow: "rgba(232,181,74,0.35)",  // gold glow
+      font_display: "'Anton', sans-serif",
+      font_body: "'Inter', sans-serif",
+      pattern: "felt",       // soft glow texture suits the noir look
+    },
+  },
+         
 /* ---- resolver: subdomain -> coin (with local override) ---- */
 function resolveCoin() {
   if (FORCE_COIN && COINS[FORCE_COIN]) return COINS[FORCE_COIN];
