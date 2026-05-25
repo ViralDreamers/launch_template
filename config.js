@@ -180,7 +180,7 @@ const COINS = {
     twitter: "https://x.com/i/communities/1953964802180894827",
     pumpfun: "https://pump.fun/",
 
-    ca: "",
+    ca: "4s9tVPwj9wHq4t9afCruJNBUwPtHx5cAbbfxYysspump",
 
     about: [
       "Every empire starts in the shadows. This one starts on the chart.",
