@@ -178,7 +178,7 @@ const COINS = {
     telegram: "https://t.me/deccartel",
     showTelegram: true,
     twitter: "https://x.com/i/communities/1953964802180894827",
-    pumpfun: "https://pump.fun/",
+    pumpfun: "https://pump.fun/coin/4s9tVPwj9wHq4t9afCruJNBUwPtHx5cAbbfxYysspump",
 
     ca: "4s9tVPwj9wHq4t9afCruJNBUwPtHx5cAbbfxYysspump",
 
